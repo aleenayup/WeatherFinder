@@ -99,6 +99,12 @@ button:active { transform: scale(0.97); }
     margin-top: 20px;
 }
 
+.weather-header h3 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
 footer {
     text-align: center;
     margin-top: 60px;
@@ -115,3 +121,17 @@ footer {
     .search-box { flex-direction: column; }
     button { width: 100%; }
 }
+
+#top10 li {
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    font-weight: 600;
+    transition: color 0.2s, padding-left 0.2s;
+}
+
+#top10 li:hover {
+    color: var(--secondary);
+    padding-left: 8px;
+}
+
