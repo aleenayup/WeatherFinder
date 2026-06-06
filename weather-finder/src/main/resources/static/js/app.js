@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
         fetchWeather(getAPICityName(selectedCity));
     });
 
+    
     cityInput.addEventListener('keypress', function(event) {
         if (event.key === 'Enter') viewButton.click();
     });
