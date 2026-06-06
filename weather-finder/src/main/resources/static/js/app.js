@@ -1,3 +1,4 @@
+// top10 branch: renders weather data
 document.addEventListener('DOMContentLoaded', function() {
 
     function getAPICityName(cityName) {
