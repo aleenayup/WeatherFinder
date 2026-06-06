@@ -63,6 +63,7 @@ async function fetchWeather(city) {
 }
 
 function displayWeather(city, current) {
+    // top10 branch: renders weather data
     document.getElementById('weather').innerHTML = `
         <div class="weather-result">
             <div class="weather-header">
