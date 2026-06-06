@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 });
 
+
 async function fetchWeather(city) {
     const weatherDiv = document.getElementById('weather');
     weatherDiv.innerHTML = `<div class="loading"><p>Loading weather for ${city}...</p></div>`;
