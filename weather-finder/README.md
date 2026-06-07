@@ -1,0 +1,1 @@
+AI assistance from claude, fetchweather function and displayweather function
