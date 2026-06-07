@@ -63,7 +63,7 @@ async function fetchWeather(city) {
 }
 
 function displayWeather(city, current) {
-    // viewcity branch: renders weather datasda
+    // differnt comment
     document.getElementById('weather').innerHTML = `
         <div class="weather-result">
             <div class="weather-header">
