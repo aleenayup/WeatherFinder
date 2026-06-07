@@ -64,6 +64,7 @@ async function fetchWeather(city) {
 }
 
 function displayWeather(city, current) {
+    // differnt comment
     document.getElementById('weather').innerHTML = `
         <div class="weather-result">
             <div class="weather-header">
